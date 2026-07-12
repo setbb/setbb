@@ -408,3 +408,4 @@ abstract final class AppStrings {
 
   static const unknownError = "Unknown error";
 }
+.
