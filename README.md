@@ -294,4 +294,117 @@ class BilalBoukhari {
 # 🌟 Fun Fact
 
 > "First, solve the problem. Then, write the code."
-> 
+> import 'package:flutter/material.dart';
+
+/// Global application colors.
+abstract final class AppColors {
+  AppColors._();
+
+  // Brand
+  static const Color primary = Color(0xFF1976D2);
+  static const Color secondary = Color(0xFF03A9F4);
+  static const Color accent = Color(0xFF00BCD4);
+
+  // Status
+  static const Color success = Color(0xFF2E7D32);
+  static const Color warning = Color(0xFFF9A825);
+  static const Color error = Color(0xFFC62828);
+  static const Color info = Color(0xFF0288D1);
+
+  // Light Theme
+  static const Color backgroundLight = Color(0xFFF8FAFC);
+  static const Color surfaceLight = Colors.white;
+
+  // Dark Theme
+  static const Color backgroundDark = Color(0xFF121212);
+  static const Color surfaceDark = Color(0xFF1E1E1E);
+
+  // Text
+  static const Color textPrimary = Color(0xFF212121);
+  static const Color textSecondary = Color(0xFF757575);
+  static const Color textLight = Colors.white;
+
+  // Border
+  static const Color border = Color(0xFFE0E0E0);
+
+  // Divider
+  static const Color divider = Color(0xFFEEEEEE);
+}
+abstract final class AppSizes {
+  AppSizes._();
+
+  static const double xs = 4;
+
+  static const double sm = 8;
+
+  static const double md = 16;
+
+  static const double lg = 24;
+
+  static const double xl = 32;
+
+  static const double xxl = 48;
+
+  static const double radius = 12;
+
+  static const double appBarHeight = 60;
+
+  static const double buttonHeight = 52;
+
+  static const double inputHeight = 56;
+
+  static const double icon = 24;
+}
+abstract final class AppRadius {
+  AppRadius._();
+
+  static const double xs = 4;
+
+  static const double sm = 8;
+
+  static const double md = 12;
+
+  static const double lg = 16;
+
+  static const double xl = 24;
+
+  static const double circle = 999;
+}
+class AppDuration {
+  AppDuration._();
+
+  static const fast = Duration(milliseconds: 150);
+
+  static const normal = Duration(milliseconds: 300);
+
+  static const slow = Duration(milliseconds: 600);
+
+  static const splash = Duration(seconds: 2);
+}
+abstract final class AppStrings {
+  AppStrings._();
+
+  static const appName = "FlutterX";
+
+  static const loading = "Loading...";
+
+  static const retry = "Retry";
+
+  static const cancel = "Cancel";
+
+  static const save = "Save";
+
+  static const delete = "Delete";
+
+  static const update = "Update";
+
+  static const search = "Search";
+
+  static const success = "Success";
+
+  static const failed = "Something went wrong";
+
+  static const noInternet = "No internet connection";
+
+  static const unknownError = "Unknown error";
+}
